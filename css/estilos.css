@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: comic-sans;
+    
+}
+
+body{
+    background-image: url("../images/fondo2.png");
+ background-repeat: repeat;
+ background-attachment: fixed;
+ padding: 5px;
+}
+
+div. title{
+    height: 50px;
+    width: auto;
+    
+}
+
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+    transition: all 0.3s;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links a{
+    font-weight: bold;
+    font-size: 25px;
+    color: #eceff1;
+    text-decoration: none; 
+}
+
+.header .nav-links li a:hover{
+    color: #ffbc0e;
+    
+}
+
+.header .btn button{
+    font-weight: 700;
+    font-size: 18px;
+    color: #1b3039;
+    padding: 5px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #ffbc0e;
+    color: #0091d4;
+    transform: scale(1.4);
+}
+div.fondo1{
+    background-color: #FEDB43;
+    border: 5px;
+}
+div.fondo2{
+    background-color: #119ACF;
+    border: 5px;
+}
+h2.subtitulo1{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0A5BFF;
+}
+h2.subtitulo2{
+    text-align: right;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F9B000;
+}
+p.a{
+    font-size: 20px;
+    color: #0894FF;
+    font-weight: bold;
+}
+
+p.b{
+    font-size: 20px;
+    color: #FEDB43;
+    font-weight: bold;
+}
+table.PersTabla{
+    padding: 10px;
+}
+.SubtPerso{
+    font-size:30px;
+    color: white;
+    font-weight: bold;
+}
+.description{
+    font-size:15px;
+    color: white;
+    font-weight: bold;
+}
+img.imagen2{
+    weight: 40%;
+    width: 40%;
+
+}
+footer.autor{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(22, 45, 48, 0.877);
+}
+ 
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+/* ESTILOS FORMULARIO */
+.contenedor .div-formulario {
+    width: 30%;
+    height: 250px;
+    margin: 15px 15px;
+    background-image: url("../images/fondo1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/* ESTILOS LISTADO */
+.contenedor .div-listado {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: #574D4E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color: green;
+}
+
+.btn-eliminar {
+    background-color: red;
+}
